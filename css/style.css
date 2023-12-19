@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(191, 219, 245);
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    color: #136D64;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 600px;
+}
+
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.main-info a {
+    font-size: 20px;
+    color: #136D64;
+    text-decoration: none;
+}
+
+.contacts {
+    padding: 75px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.contacts img {
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+.contacts .contacts-info {
+    margin-left: 10px;
+}
+
+.contacts h3 {
+    margin-left: 100px;
+}
+
+.contacts ul li {
+    margin-bottom: 15px;
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contacts ul li img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input {
+    font-style: italic;
+    font-family: "Times New Roman";
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #136D64;
+}
+
+.form button {
+    font-family: "Times New Roman";
+    background-color: #136D64;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: #136D64 2px solid;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.form button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: #000000 2px solid;
+}
+
+.form text {
+    font-style: italic;
+    font-family: "Times New Roman";
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #136D64;
+}
+
+.form input {
+    color: #136D64;
+}
+
